@@ -175,3 +175,9 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.main_photos {
+  border: 10px;
+  max-width: 600px;
+  margin: auto
+}
