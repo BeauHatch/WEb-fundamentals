@@ -106,6 +106,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+
 }
 nav  {
   list-style-type: none;
@@ -114,7 +115,7 @@ nav  {
 }
 nav a {
   padding:1em;
-  min-width: 120px;
+  min-width: 31%;
   text-decoration: none;
   padding: 10px;
 
@@ -178,6 +179,36 @@ nav a:hover {
 
 .main_photos {
   border: 10px;
-  max-width: 600px;
-  margin: auto
+  max-width: 100%;
+  padding: 20px;
+  margin-left: -20px;
 }
+
+.logo {
+  width: 150px;
+
+}
+
+.shop_photos {
+
+  /* This is the parent of the activity 1 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.link_photos{
+  width: 100%;
+  padding: 20px;
+  margin-left: -20px;
+  margin-top: 10px;
+
+}
+.link_photos:hover {
+  opacity: .6;
+transform: scale(1.1);
+margin-left: -20px;
+margin-top: 10px;
+}
+  
