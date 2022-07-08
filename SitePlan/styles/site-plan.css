@@ -115,11 +115,24 @@ nav  {
 }
 nav a {
   padding:1em;
-  min-width: 31%;
+  min-width: 32%;
   text-decoration: none;
   padding: 10px;
-
 }
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+}
+.col {
+  display: grid;
+  padding: 16px;
+}
+
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
